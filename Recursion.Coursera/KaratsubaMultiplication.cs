@@ -1,4 +1,4 @@
-namespace Algorithms;
+namespace Coursera.Recursion;
 
 public static class KaratsubaMultiplication
 {

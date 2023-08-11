@@ -1,4 +1,4 @@
-namespace Algorithms;
+namespace Sorting.Coursera;
 
 public class InversionCountersTest
 {

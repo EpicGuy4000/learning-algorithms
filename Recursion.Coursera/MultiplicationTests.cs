@@ -1,4 +1,6 @@
-namespace Algorithms;
+using Coursera.Recursion;
+
+namespace Recursion.Coursera;
 
 public class MultiplicationTests
 {

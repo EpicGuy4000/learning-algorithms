@@ -1,4 +1,6 @@
-namespace Algorithms;
+using Algorithms.Common;
+
+namespace Sorting.Coursera;
 
 public static class MergeSort
 {

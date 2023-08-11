@@ -26,4 +26,8 @@
       </None>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Algorithms.Common\Algorithms.Common.csproj" />
+    </ItemGroup>
+
 </Project>

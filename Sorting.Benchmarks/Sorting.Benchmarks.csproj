@@ -12,7 +12,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Algorithms\Algorithms.csproj" />
+      <ProjectReference Include="..\Sorting.Coursera\Sorting.Coursera.csproj" />
     </ItemGroup>
 
 </Project>

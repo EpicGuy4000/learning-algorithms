@@ -1,7 +1,8 @@
 using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Jobs;
+using Sorting.Coursera;
 
-namespace Algorithms.Benchmarks;
+namespace Sorting.Benchmarks;
 
 [SimpleJob(RuntimeMoniker.Net70)]
 [MemoryDiagnoser]

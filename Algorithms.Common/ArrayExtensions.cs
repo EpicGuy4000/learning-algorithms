@@ -1,4 +1,4 @@
-namespace Algorithms;
+namespace Algorithms.Common;
 
 public static class ArrayExtensions
 {
