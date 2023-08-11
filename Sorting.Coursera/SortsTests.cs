@@ -19,6 +19,7 @@ public class SortsTests
         new object[] { new Sort(MergeSort.Sort) },
         new object[] { new Sort(MergeSortWithEnumerable.Sort) },
         new object[] { new Sort(input => QuickSort.Sort(input, QuickSort.ChooseFirstElement)) },
+        new object[] { new Sort(input => QuickSortWithInsertionSort.Sort(input, QuickSort.ChooseFirstElement)) },
         new object[] { new Sort(input =>
         {
             var sorted = new int[input.Length];

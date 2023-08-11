@@ -41,6 +41,9 @@ public class SortBenchmarks
     public int[] QuickSortFirstElementRun() => QuickSort.Sort(data, QuickSort.ChooseFirstElement);
     
     [Benchmark]
+    public int[] QuickSortWithInsertionSortFirstElementRun() => QuickSortWithInsertionSort.Sort(data, QuickSort.ChooseFirstElement);
+    
+    [Benchmark]
     public int[] QuickSortLastElementRun() => QuickSort.Sort(data, QuickSort.ChooseLastElement);
     
     [Benchmark]
